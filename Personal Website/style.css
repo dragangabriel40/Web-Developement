@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+h1 {
+
+    text-align: center;
+}
+
+.junior {
+    position: relative;
+    top: -20px;
+    top: 0 0 0 0px;
+}
+
+#avatar {
+    padding: 40px 0 0 0;
+    width: 200px;
+    height: 200px;
+}
+
+.top-imagini {
+    width: 150px;
+    height: 150px;
+    padding: 100px 0 80px 0;
+}
+
+#top-mid-imagini {
+    border: 0px 100px 0px 100px;
+    padding-left: 80px;
+    padding-right: 80px
+}
+
+
+.top {
+    background-color: #9BC0F8;
+    margin: 0px;
+    size: 100%;
+}
+
+.bordura-mare {
+    background-color: orange;
+    width: 100%;
+    height: 80px;
+}
+
+.bordura-mica {
+    margin-top: 140px;
+    background-color: orange;
+    width: 100%;
+    height: 30px;
+}
+
+.eu {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.linie {
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgb(104, 101, 101)
+}
+
+.aptitudini {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.img-dreapta {
+
+    float: right;
+    width: 250px;
+    height: 200px;
+}
+
+.img-stanga {
+    float: left;
+    width: 250px;
+    height: 200px;
+}
+
+.section3 {
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.section4 {
+    padding-top: 60px;
+    width: 50%;
+    margin: auto;
+
+
+}
+
+#img-border {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.center-left {
+    padding-left: 220px;
+}
+
+.center-right {
+    width: 370px;
+    padding-right: 220px;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: #9BC0F8;
+    height: 80px;
+}
+
+.made {
+    float: left;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+footer .imagini-contact {
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    float: right;
+
+}
