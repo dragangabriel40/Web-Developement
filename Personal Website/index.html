@@ -2,74 +2,111 @@
 <html lang="en">
 
 <head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 
 <body>
     <div class="container">
         <div class="top">
             <img src="imagini/programmer.png" alt="Avatar" id="avatar"><br>
-            <h1>Gabi Dragan</h1>
+            <p class="nume">Gabi Dragan</p>
             <p class="junior"> -- Junior Web Developer --</p>
-            <img src="imagini/music.png" alt="cheiaSol" class="top-imagini">
-            <img src="imagini/monitoring.png" alt="monitorProgramare" class="top-imagini" id="top-mid-imagini">
-            <img src="imagini/photographer.png" alt="photographer" class="top-imagini">
-        </div>
+            <div class="row">
 
-        <div class="bordura-mare">
+                <div class="col-md-4  col-sm-12"> <img src="imagini/music.png" alt="cheiaSol" class="top-imagini"></div>
+                <div class="col-md-4 col-sm-12 "> <img src="imagini/monitoring.png" alt="monitorProgramare"
+                        class="top-imagini" id="top-mid-imagini"></div>
+                <div class="col-md-4 col-sm-12"> <img src="imagini/photographer.png" alt="photographer"
+                        class="top-imagini"></div>
 
-        </div>
-
-        <div class="section2">
-            <img src="imagini/eu.png" alt="eu" class="eu">
-            <p>Salutare!
-            <p class="text">
-                Sunt un tanar de 20 ani pasionat de domeniul IT si un incepator in web development.
-            </p>
-
-        </div>
-        <p class="linie"></p>
-        <div class="section3">
-            <p class="aptitudini">Aptitudini si calitati</p>
-            <img src="imagini/live-music.png" alt="instrumente" class="img-stanga" id="img-border">
-
-            <p style="padding-top: 40px;">Imi place muzica.</p>
-            <p class="center-left"> Am invatat sa cant la chitara in clasa a 6-a iar de atunci folosesc chitara pentru a
-                ma
-                distra.</p>
-
-        </div>
-        <div class="bordura-mica"></div>
-        <div class="section4">
-            <img src="imagini/photographer (2).png" alt="fotograf" class="img-dreapta" id="img-border">
-            <p style="padding-top: 10px;" class="center-right">De la 16 ani sunt fotograf de evenimente.</p>
-            <p class="center-right">
-                Am avut ocazia de a invata
-                de la o echipa specializata pe acest domeniu.
-                Aici am invatat sa utilizez Photoshop, Lightroom, programe pentru realizarea de albume si sa comunic cu
-                alti oameni</p>
-        </div>
-        <div class="bordura-mica"></div>
-        <div class="section3">
-            <img src="imagini/monitoring.png" class="img-stanga" id="img-border">
-            <p style="padding-top: 40px;padding-left: 300px;" class="center-tight">Junior web developer</p>
-            <p class="center-tight" style="padding-left: 300px; ;">Imi doresc inca din copilarie
-                sa ajung programator iar acum imi duc visul la indeplinire</p>
-        </div>
-        <footer>
-            <div class="footer">
-                <p class="made">Made by Gabi Dragan</p>
-                <a href="" target="_blank"> <img src="imagini/email.png" alt="email" class="imagini-contact"></a>
-                <a href="https://www.facebook.com/gabi.dragan.33" target="_blank"> <img src="imagini/facebook.png"
-                        alt="facebook" class="imagini-contact"></a>
-                <a href="https://www.instagram.com/dragangabriel10/" target="_blank"> <img src="imagini/instagram.png"
-                        alt="instagram" class="imagini-contact"></a>
             </div>
-        </footer>
+        </div>
+    </div>
+
+    <div class="bordura-mare">
+
+    </div>
+
+    <div class="section2">
+        <img src="imagini/eu.png" alt="eu" class="eu">
+        <p>Salutare!
+        <p class="text">
+            Sunt un tanar de 20 ani pasionat de domeniul IT si un incepator in web development.
+        </p>
+
+    </div>
+    <p class="linie"></p>
+    <div class="section3">
+
+        <p class="aptitudini">Aptitudini si calitati</p>
+        <div class="row ">
+            <div class="col-md-2 col-sm-12"></div>
+            <div class="col-md-4 col-sm-12">
+                <img src="imagini/live-music.png" alt="instrumente" class="img-fluid" id="img-border">
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p style="padding-top: 40px;" class="center-left">Imi place muzica.</br>
+                <p class="center-left"> Am invatat sa cant la chitara in clasa a 6-a iar de atunci cant cu prietenii de
+                    fiecare data cand am ocazia</p>
+                </p>
+
+            </div>
+            <div class="col-md-2 col-sm-12"></div>
+        </div>
+    </div>
+    <div class="bordura-mica"></div>
+    <div class="section4">
+        <div class="row">
+            <div class="col-md-2 col-sm-12"></div>
+            <div class="col-md-4 col-sm-12">
+                <p style="padding-top: 20px;" class="center-left">De la 16 ani sunt fotograf de evenimente.</p>
+                <p>
+                    Am avut ocazia de a invata
+                    de la o echipa specializata pe acest domeniu.
+                    Aici am invatat sa utilizez Photoshop, Lightroom, programe pentru realizarea de albume si sa comunic
+                    cu
+                    alti oameni</p>
+                <br>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <img src="imagini/photographer (2).png" alt="fotograf" class="img-fluid" id="img-border">
+            </div>
+            <div class="col-md-2 col-sm-12"> </div>
+        </div>
+    </div>
+
+    <div class="bordura-mica"></div>
+    <div class="section3">
+        <img src="imagini/monitoring.png" class="img-fluid" id="img-border">
+        <p style="padding-top: 40px;" class="center-tight">Junior web developer</p>
+        <p>Imi doresc inca din copilarie
+            sa ajung programator iar acum imi duc visul la indeplinire</p>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <p class="made">Made by Gabi Dragan</p>
+            <a href="https://www.facebook.com/gabi.dragan.33" target="_blank"> <img src="imagini/facebook.png"
+                    alt="facebook" class="imagini-contact"></a>
+            <a href="https://www.instagram.com/dragangabriel10/" target="_blank"> <img src="imagini/instagram.png"
+                    alt="instagram" class="imagini-contact"></a>
+        </div>
+
+    </footer>
 
     </div>
 

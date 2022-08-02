@@ -1,19 +1,28 @@
-body {
-    text-align: center;
-    margin: 0;
-    width: 100%;
-    height: 100%;
+* {
+    box-sizing: content-box;
+    overflow-x: hidden;
 }
 
+body {
+    text-align: center;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 0px 0px 0px 0px;
+    max-width: 100%;
+    padding: 0px;
+}
 
 h1 {
-
+    font-size: 40px;
     text-align: center;
 }
 
 .junior {
     position: relative;
-    top: -20px;
+    top: -8px;
     top: 0 0 0 0px;
 }
 
@@ -29,17 +38,27 @@ h1 {
     padding: 100px 0 80px 0;
 }
 
-#top-mid-imagini {
-    border: 0px 100px 0px 100px;
-    padding-left: 80px;
-    padding-right: 80px
+.nume {
+    font-size: 40px;
 }
+
+/* #top-mid-imagini {} */
 
 
 .top {
     background-color: #9BC0F8;
     margin: 0px;
     size: 100%;
+}
+
+.col-md-6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-md-4 {
+    margin: 0px;
+    padding: 0px;
 }
 
 .bordura-mare {
@@ -77,24 +96,24 @@ h1 {
     float: right;
     width: 250px;
     height: 200px;
+
 }
 
-.img-stanga {
-    float: left;
+.img-fluid {
     width: 250px;
     height: 200px;
 }
 
 .section3 {
-    width: 50%;
+    width: 100%;
     margin: auto;
-    padding-top: 30px;
+    padding-top: 60px;
 
 }
 
 .section4 {
     padding-top: 60px;
-    width: 50%;
+    width: 100%;
     margin: auto;
 
 
@@ -103,15 +122,6 @@ h1 {
 #img-border {
     border: 2px solid black;
     border-radius: 50%;
-}
-
-.center-left {
-    padding-left: 220px;
-}
-
-.center-right {
-    width: 370px;
-    padding-right: 220px;
 }
 
 footer {
