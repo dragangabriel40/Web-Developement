@@ -1,0 +1,12 @@
+header {
+  text-align: center;
+  font-size: 50px;
+  background-color: grey;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#add {
+  font-size: 20px;
+  border-radius: 10px;
+}
