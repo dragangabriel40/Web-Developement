@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="script/script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p class="title">Calculator indice masa corporala</p>
+    <div class="calculator">
+      <div>
+        <span>Introdu Greutatea (kg)</span>
+        <input type="text" id="greutate" />
+        <br /><br />
+        <span>Introdu Inaltimea (cm)</span>
+        <input type="text" id="inaltime" />
+        <p id="rezultat"></p>
+        <div>
+          <p id="info"></p>
+          <button class="btnCalcul" type="button" onclick="calculeaza()">
+            Calculeaza
+          </button>
+          <button class="btnReset" onclick="reseteazaValorile()">Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
