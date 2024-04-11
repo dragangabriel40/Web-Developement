@@ -1,0 +1,158 @@
+html,
+body {
+  background-color: #f1f1f1;
+  margin: 0px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* pentru a preveni orice scrolare orizontală neașteptată */
+}
+
+/* Navbar */
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.75)' stroke-linecap='round' stroke-miterlimit='0' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.topElement {
+  width: 100%;
+  padding: 0;
+}
+
+.topElement {
+  position: relative;
+}
+
+.prezentationImg {
+  width: 100%;
+  height: auto; /* Adjust this to your desired height */
+}
+
+.navbar {
+  z-index: 3;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* Rubrica informatii */
+
+.titleFont {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 65px;
+  font-family: "Lovers Quarrel", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0px;
+}
+
+.img2 {
+  width: 100%;
+  padding: 20px 0px 40px 0px;
+}
+
+.text-padding {
+  padding: 10px 30px 10px 30px;
+}
+
+.offers {
+  padding: 20px;
+}
+
+.subTitleFont {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+.contentFont {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+.mailSender {
+  padding: 0px 20px 40px 20px;
+  border-radius: 30px;
+}
+
+#servicesDesign {
+  background: rgb(124, 124, 124);
+  background: linear-gradient(
+    45deg,
+    rgba(124, 124, 124, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-radius: 20px;
+  padding: 0px 25px 50px 25px;
+  color: white;
+}
+
+.btn {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+.inner-content {
+  padding: 25px 0px 30px 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(31, 35, 31, 0.252);
+  border-radius: 10px;
+  /* box-shadow: 0px 20px 30px 10px rgb(0, 0, 0); */
+}
+
+.activities {
+  color: #e3e3e3;
+}
+
+.cardsPadding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contactIcons {
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.infoContact {
+  padding-top: 14px;
+  padding-left: 5px;
+}
+
+.contactUs {
+  padding-top: 30px;
+}
+
+.contactIcons,
+.infoContact {
+  display: inline-block;
+  vertical-align: middle; /* Aliniază elementele pe axa verticală */
+}
+
+#contactText {
+  font-family: "Playfair Display", serif;
+  font-size: 33px;
+  font-weight: 500;
+  padding-left: 100px;
+}
+
+#paddingMail {
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  #contactText {
+    padding-left: 0px;
+  }
+  #contactText {
+    text-align: center;
+  }
+}
