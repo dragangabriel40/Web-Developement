@@ -5,9 +5,6 @@
     <!-- Animatii script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <!-- JQuery -->
-    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-
     <!-- conectarea la google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,18 +18,25 @@
         rel="stylesheet">
     <!--lovers  -->
     <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
-    <!-- JQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!--Bootstrap  -->
+
+    <!-- Bootstrap JavaScript -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!--  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
-    <script src="/pWEB/Js/script.js"></script>
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="Js/script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/style.css">
@@ -91,10 +95,10 @@
 
                 </div>
                 <div class="col-lg-6 order-2 order-lg-2 photoCorner">
-                    <img src="/pWEB/photos/Alina si Danut1.jpg" class="img2 img-fluid">
+                    <img src="photos/Alina si Danut1.jpg" class="img2 img-fluid">
                 </div>
                 <div class="col-lg-6 order-4 order-lg-3">
-                    <img src="/pWEB/photos/Alina si Danut2.jpg" class="img2 img-fluid">
+                    <img src="photos/Alina si Danut2.jpg" class="img2 img-fluid">
                 </div>
                 <div class="col-lg-6 text-center text-padding order-3 order-lg-5 contentFont divColor">
                     Fie că este vorba de nunți romantice, evenimente corporative, sesiuni foto de familie sau
@@ -150,80 +154,144 @@
                 </div>
             </div>
         </div>
-        <div class="fotoGallery row">
-            <div class="text-center titleFont col-lg-12 col-sm-12" id="gallery">Galerie foto</div>
-            <!-- Nunta, Botez , Majorate, Comerciale ? -->
-            <div class="col-lg-3">
-                <img src="photos/Alina si Danut2.jpg " class="prezentationImg">
-            </div>
-            <div class="col-lg-3">
-                <img src="photos/Alina si Danut2.jpg " class="prezentationImg">
-            </div>
-            <div class="col-lg-3">
-                <img src="photos/Alina si Danut2.jpg " class="prezentationImg">
-            </div>
-            <div class="col-lg-3">
-                <img src="photos/Alina si Danut2.jpg " class="prezentationImg">
+        <div class="container">
+            <div class="fotoGallery  row">
+                <div class="text-center titleFont col-lg-12 " id="gallery">Galerie foto</div>
+                <hr>
+                <!-- Nunta, Botez , Majorate, Comerciale ? -->
+                <div class="col-lg-3 col-sm-6 cardsPadding">
+                    <div class="textGallery">Nunta</div>
+                    <a href="GalleryWebsite/nunta.html"> <img src="photos/Alina si Danut1.jpg "
+                            class="galleryImage"></a>
+                </div>
+                <div class="col-lg-3 col-sm-6 cardsPadding">
+                    <div class="textGallery">Botez</div>
+                    <a href="GalleryWebsite/botez.html"><img src="photos/Alina si Danut2.jpg " class="galleryImage"></a>
+
+                </div>
+                <div class="col-lg-3 col-sm-6 cardsPadding">
+                    <div class="textGallery">Majorat</div>
+                    <a href="GalleryWebsite/majorat.html"> <img src="photos/PhotoPrezentation.JPG "
+                            class="galleryImage">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 cardsPadding">
+                    <div>
+                        <div class="textGallery">Produse</div>
+                        <img src="photos/DSC_3301 copy.jpg" class="galleryImage">
+                    </div>
+                </div>
             </div>
         </div>
-        <br><br><br><br>
-        <br><br>
-        <br><br><br><br><br><br><br><br>
-        <hr>
-        <!-- Sectiunea de trimitere mail -->
-        <form class="container" action="https://api.web3forms.com/submit" method="POST">
-            <div class="row mailSender">
-                <div class="col-lg-6 col-sm-12 ">
-                    <div class="contactUs">
-                        <div class="subTitleFont" id="contactText">Contacteaza-ne</div>
+    </div>
+    <hr>
+    <!-- Comentarii -->
+    <div class="container text-center titleFont">Comentarii</div>
+    <div id="comentarii"></div>
+    <!-- Modal -->
+    <div class="text-center">
+        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal"
+            data-whatever="@mdo">Adauga un review</button>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Review</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="rate">
+                            <input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label>
+                        </div>
+                        <br><br>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Nume si Prenume</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-email" class="col-form-label">Email</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Mesaj</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Adauga Comentariu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Sectiunea de trimitere mail -->
+    <form class="container" action="https://api.web3forms.com/submit" method="POST">
+        <div class="row mailSender">
+            <div class="col-lg-6 col-sm-6 ">
+                <div class="contactUs" id="contact">
+                    <div class="subTitleFont" id="contactText">Contacteaza-ne</div>
+                    <div class="order-sm-2">
+
                         <div>
-                            <img src="icons/whatsapp.png" class="contactIcons">
+                            <img src="Icons/wapp.png" class="contactIcons">
                             <div class="infoContact">Nitu Petrut: 0730231806</div>
                         </div>
                         <div>
-                            <img src="icons/location.png" class="contactIcons">
-                            <div class="infoContact">BANESTI, Str. STR. DRUMUL MARE,<br> Nr. 629, județ PRAHOVA</div>
+                            <img src="Icons/location.png" class="contactIcons">
+                            <div class="infoContact">BANESTI, Str. STR. DRUMUL MARE,<br> Nr. 629, județ PRAHOVA
+                            </div>
                         </div>
                         <div>
-                            <img src="icons/instagram.png" class="contactIcons">
+                            <img src="Icons/instagram.png" class="contactIcons">
                             <div class="infoContact">PeterVideo Production</div>
                         </div>
                         <div>
-                            <img src="icons/facebook-app-symbol.png" class="contactIcons">
+                            <img src="Icons/facebook-app-symbol.png" class="contactIcons">
                             <div class="infoContact">PeterVideo Production</div>
                         </div>
-
-
-                        <br><br>
                     </div>
+
+                    <br><br>
                 </div>
-                <div class="col-lg-6" id="paddingMail">
-                    <input type="hidden" name="access_key" value="93f31e3c-cf3c-4e6a-a7ae-d575a04e8c2d">
+            </div>
+            <div class="col-lg-6 col-sm-6" id="paddingMail">
+                <input type="hidden" name="access_key" value="93f31e3c-cf3c-4e6a-a7ae-d575a04e8c2d">
 
-                    <div class="form-group">
-                        <label for="formGroupExampleInput">Nume si prenume</label>
-                        <input name="Nume" type="text" class="form-control" id="formGroupExampleInput" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail" class="col-form-label">Email</label>
-                        <input name="Email" type="email" class="form-control" id="inputEmail" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1" class="col-form-label">Mesaj</label>
-                        <textarea name="Continut" class="form-control" id="exampleFormControlTextarea1"
-                            rows="3"></textarea>
-                    </div>
-                    <br>
-                    <div class="form-group">
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-light">Trimite Mail</button>
-                        </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Nume si prenume</label>
+                    <input name="Nume" type="text" class="form-control" id="formGroupExampleInput" required>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail" class="col-form-label">Email</label>
+                    <input name="Email" type="email" class="form-control" id="inputEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1" class="col-form-label">Mesaj</label>
+                    <textarea name="Continut" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <br>
+                <div class="form-group">
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-light">Trimite Mail</button>
                     </div>
                 </div>
             </div>
-        </form>
-
-
+        </div>
+    </form>
     </div>
     </div>
 
